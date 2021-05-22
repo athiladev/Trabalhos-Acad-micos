@@ -1,0 +1,95 @@
+body {
+    height: 1500px;
+     background-image: linear-gradient(to right, #00c3ff ,#ffff1c);
+}
+
+.cabecalho h1 {
+    font-family: Bradley Hand, cursive;
+    font-size: 30pt;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 8px black;
+}
+
+h2 {
+    font-family: Bradley Hand, cursive;
+    font-size: 25pt;
+    color: white;
+    text-shadow: 1px 1px 8px black;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.table {
+    border: 2px solid black;
+    width: 100%;
+}
+
+.table th {
+    font-size: 15pt;
+    font-family: Verdana;
+    border: 2px solid black;
+    
+}
+
+.table tr th img {
+    -webkit-transition: all .4s ease-in;
+}
+
+.table tr th a {
+    -webkit-transition: all .4s ease-in;
+}
+
+#l1-vermelho th {
+    background: #804949;
+    color: white;
+
+}	
+
+#l-cinza {
+    background: #424242;
+    color: white;
+}
+
+#l2-cinza {
+    background: #BDBDBD;
+    color: white;
+}
+
+h4 {
+    font-family: Bradley Hand, cursive;
+    font-size: 10pt;
+    color: white;
+    text-shadow: 1px 1px 5px orange;
+}
+
+th a:hover {
+    color: #FF8000;
+    -webkit-transform: scale(1.5);	
+    font-size: 14pt;
+
+}
+
+.table th img{
+    padding: 5px;
+}
+
+.table th img:hover {
+    -webkit-transform: scale(1.5);	
+}
+
+.movie  {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 35%;
+}
+
+.movie h1 {
+    font-family: Bradley Hand, cursive;
+    font-size: 30pt;
+    color: white;
+    text-shadow: 1px 1px 5px orange;
+    text-align: center;
+}
+

@@ -1,0 +1,76 @@
+
+body {
+    background: linear-gradient(to right,#0174DF,#58FA82);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.cabecalho h1 {
+    text-align: center;
+    color: white;
+}
+
+.cabecalho h2 {
+    color: white;
+}
+
+.interface p {
+    text-align: justify;
+    color: black;
+    font-size: 15pt;
+}
+
+.centro {
+   background: white;
+   width: 900px;
+   padding: 10px;
+   margin: auto;
+   box-shadow: 1px 1px 5px black;
+}
+
+
+hr {
+    margin: 25px 0px;
+    box-shadow: 1px 1px 1px black;
+}
+
+.menu {
+    display: block;
+}
+ .menu ul {
+     position: relative;
+     text-align: center;
+ }
+
+ .menu li {
+     display: inline-block;
+     margin: 10px;
+ }
+ .menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15pt;
+ }
+
+ .menu li a:hover {
+     background: linear-gradient(to right, red,#f1f1f1);
+     padding: 10px;
+ }
+
+ .interface a {
+     font-weight: bold;
+     font-size: 15pt;
+     color: #cccccc;
+ }
+
+ #link {
+     text-align: center;
+ }
+
+ #link a {
+     text-decoration: none;
+     color: black;
+ }
+
+ #link a:hover {
+     color:greenyellow;
+ }
